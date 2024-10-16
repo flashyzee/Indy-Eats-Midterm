@@ -1,32 +1,252 @@
-
-.picture {
-    height: 700px;
-    width: 200px; 
-    background-color:s aquamarine;
-   
-  }
-
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+}
+  
+header {
+    text-align: center;
+    position: relative; 
 }
 
-.header img {
-  width: 50px;
-  height: 50px;
+article {
+    width: 100%;
+    height: 85%;
+    background-color: aquamarine;
+    border: 5px solid white;
+    position: absolute;
+    top: 80px;
+    border-radius: 15px;
+    box-sizing: border-box;
 }
 
-.header h1 {
-  font-size: 2.5em;
-  color: white;
+.american{
+    width: 300px; 
+    height: 300px; 
+    border: 5px solid green;
+    position: absolute; 
+    top: 100px; 
+    left: 20px; 
+    border-radius: 15px;
+    box-sizing: border-box; 
+    background-image: url(american.jpg);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
 }
 
-.wrapper {
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
- 
+.page1{
+    width: 289px; 
+    height: 20px; 
+    background-color: bisque;
+    top: 125px; 
+    left: 25px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
+
+}
+
+.chinese{
+    width: 300px; 
+    height: 300px; 
+    border: 5px solid green; 
+    position: absolute; 
+    top: 100px; 
+    left: 335px; 
+    border-radius: 15px;
+    box-sizing: border-box; 
+    background-image: url(chinese.jpg);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.page2{
+    width: 289px; 
+    height: 20px; 
+    background-color: bisque;
+    top: 125px; 
+    left: 340px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
+
+}
+
+.greek{
+    width: 300px; 
+    height: 300px; 
+    border: 5px solid green; 
+    position: absolute; 
+    top: 100px; 
+    left: 650px; 
+    border-radius: 15px;
+    box-sizing: border-box; 
+    background-image: url(greek.jpg);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.page3{
+    width: 289px; 
+    height: 20px; 
+    background-color: bisque;
+    top: 125px; 
+    left: 655px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
+
+}
+
+.italian{
+    width: 300px; 
+    height: 300px; 
+    border: 5px solid green; 
+    position: absolute; 
+    top: 100px; 
+    left: 965px; 
+    border-radius: 15px;
+    box-sizing: border-box; 
+    background-image: url(italian.jpg);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.page4{
+    width: 289px; 
+    height: 20px; 
+    background-color: bisque;
+    top: 125px; 
+    left: 970px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
+
+}
+
+p{
+    position: relative; 
+    top: 400px; 
+}
+
+.connerimage{
+    width: 350px; 
+    height: 350px; 
+    border: 5px solid purple; 
+    position: absolute; 
+    top: 100px; 
+    left: 50px; 
+    border-radius: 15px;
+    box-sizing: border-box; 
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/12/75/c3/3b/mac-n-cheese.jpg);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+
+}
+
+.conner{
+    height: 30px; 
+    background-color: bisque;
+    top: 120px; 
+    width: 300px; 
+    left: 50px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
+
+}
+
+.cdimage{
+    width: 330px; 
+    height: 330px; 
+    border: 5px solid purple; 
+    position: absolute; 
+    top: 100px; 
+    left: 50px; 
+    border-radius: 15px;
+    display: inline-block;
+    background-size: cover;
+    box-sizing: border-box; 
+    background-image: url(https://lh3.googleusercontent.com/p/AF1QipMUcNq60UJyQYqMqE0EQWRPV8tg0qZW4frGF89b=s1360-w1360-h1020);
+    background-repeat: no-repeat;
+    background-position: center;  
+
+}
+
+.cd{
+    width: 340px; 
+    height: 20px; 
+    background-color: bisque;
+    top: 125px; 
+    left: 55px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
+
+}
+
+.athensimage{
+    width: 350px; 
+    height: 350px; 
+    border: 5px solid purple; 
+    position: absolute; 
+    top: 100px; 
+    left: 50px; 
+    border-radius: 15px;
+    box-sizing: border-box; 
+    background-image: url(https://img1.wsimg.com/isteam/ip/a357a075-d145-48db-87fe-30bc9b793dec/blob-b5f13da.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1160,h:773);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+
+}
+
+.athens{
+    width: 339px; 
+    height: 20px; 
+    background-color: bisque;
+    top: 125px; 
+    left: 55px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
+
+}
+
+.Iariaimage{
+    width: 350px; 
+    height: 350px; 
+    border: 5px solid purple; 
+    position: absolute; 
+    background-image: url(https://lh3.googleusercontent.com/p/AF1QipN6aHKevDT8k1X1GGL8DvAqaLkPy5fAj-EXybg=s1360-w1360-h1020);
+    display: inline-block;
+    background-size: cover;
+    top: 100px; 
+    left: 50px; 
+    border-radius: 15px;
+    box-sizing: border-box; 
+    background-repeat: no-repeat;
+    background-position: center;  
+
+}
+
+.Iaria{
+    width: 360px; 
+    height: 20px; 
+    background-color: bisque;
+    top: 125px; 
+    left: 55px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
+
 }
